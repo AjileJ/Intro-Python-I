@@ -11,7 +11,8 @@ import sys   # idkidkidkidk #
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 for a in sys.argv:
-  print(a)
+  print('HERE',a)
+
 # Print out the OS platform you're using:
 # YOUR CODE HERE
 print(sys.platform)

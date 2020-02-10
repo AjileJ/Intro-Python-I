@@ -16,7 +16,6 @@ print(x)
 
 x.extend(y)
 print(x)
-
 # or #
 #x = x + y
 #print(x)
@@ -37,5 +36,9 @@ print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-for lar in x:
-  print(lar * 1000)
+for val in x:
+  print(val * 1000)
+
+#or#
+#news = [val * 1000 for val in x]
+#print(news)

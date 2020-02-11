@@ -17,6 +17,7 @@ ties = 0
 
 # LOOP
 while True:
+    print("Possible moves: 'Rock: r ', 'Paper: p ', 'Scissors: s ' ... type 'q' to Quit!!   ")
     print(f"\nWins: {wins}, Losses: {losses}, Ties: {ties}")
     # READ
     cmd= input("~~> ")

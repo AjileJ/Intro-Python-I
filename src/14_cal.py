@@ -42,12 +42,12 @@ if len(sys.argv) == 1:
     print(calendar.month(year, month))
 elif len(sys.argv) == 2:
   if sys.argv[1].isnumeric():
-    if int(sys.argv[1]) >= int(13):
-      print('Please enter a numerical value 1-12')
-    else:
-      month = int(sys.argv[1])
-      year = datetime.now().year
-      print(calendar.month(year, month))
+      if int(sys.argv[1]) >= int(13):
+        print('Please enter a numerical value 1-12')
+      else:
+        month = int(sys.argv[1])
+        year = datetime.now().year
+        print(calendar.month(year, month))
     
     
       
@@ -57,12 +57,12 @@ elif len(sys.argv) == 2:
        
 elif len(sys.argv) == 3:
   if sys.argv[1].isnumeric() and sys.argv[2].isnumeric():
-    if int(sys.argv[1]) >= int(13):
-     print('Please enter a numerical value 1-12') 
-    else:
-      month = int(sys.argv[1])
-      year = int(sys.argv[2])
-      print(calendar.month(year, month)) 
+      if int(sys.argv[1]) >= int(13):
+        print('Please enter a numerical value 1-12') 
+      else:
+        month = int(sys.argv[1])
+        year = int(sys.argv[2])
+        print(calendar.month(year, month)) 
   else:
     print('Please enter a numerical value')  
 
